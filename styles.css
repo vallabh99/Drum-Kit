@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lexend+Deca:wght@200;300;400&family=Poltawski+Nowy&family=Roboto:wght@300;400&display=swap');
 body {
   text-align: center;
-  background-color: #283149;
+  background-image: url('./pexels-yan-krukau-9009600.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
 }
 
 h1 {
@@ -61,7 +64,7 @@ footer {
   background-position: center;
   background-size:contain;
   cursor:grab;
-  box-shadow: 2px 2px 15px blanchedalmond;
+  box-shadow: 2px 2px 25px rgb(244, 221, 185);
 }
 
 
@@ -110,14 +113,9 @@ background-image: url('./images/tom1.png');
   margin: 10% auto;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
-
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .red {
